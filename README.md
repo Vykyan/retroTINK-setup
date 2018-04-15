@@ -11,6 +11,8 @@ A few were just too small on my screen for proper pixel perfect integer scaling,
 
 Console/SSH into your fresh retropie install.
 
+(NOTE: ssh can be enabled by either placing a blank ssh file in /boot/ or by configuring it from HDMI emulationstation before running this script).
+
 Type/paste command (All one line)
 
 `sudo apt-get install wget git -y && cd /home/pi/ && git clone https://github.com/Vykyan/retroTINK-setup.git && cd retroTINK-setup && chmod +x ./retroTINK-setup.sh && sudo ./retroTINK-setup.sh`
