@@ -122,10 +122,3 @@ esac
 Check_Root
 Check_Internet
 Main_Program
-
-
-
-
-
-
-
