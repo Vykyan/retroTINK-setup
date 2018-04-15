@@ -89,6 +89,29 @@ if [[ $? -ne 0 ]]; then
 fi
 cd ..
 
+#Update Samba Shares
+echo '[SaveStates]' >> /etc/samba/smb.conf
+echo 'comment = pi' >> /etc/samba/smb.conf
+echo 'path = "/home/pi/RetroPie/savestates"' >> /etc/samba/smb.conf
+echo 'writeable = yes' >> /etc/samba/smb.conf
+echo 'guest ok = yes' >> /etc/samba/smb.conf
+echo 'create mask = 0644' >> /etc/samba/smb.conf
+echo 'directory mask = 0755' >> /etc/samba/smb.conf
+echo 'force user = pi' >> /etc/samba/smb.conf
+echo 'follow symlinks = yes' >> /etc/samba/smb.conf
+echo 'wide links = yes' >> /etc/samba/smb.conf
+echo '[SaveFiles]' >> /etc/samba/smb.conf
+echo 'comment = pi' >> /etc/samba/smb.conf
+echo 'path = "/home/pi/RetroPie/savefiles"' >> /etc/samba/smb.conf
+echo 'writeable = yes' >> /etc/samba/smb.conf
+echo 'guest ok = yes' >> /etc/samba/smb.conf
+echo 'create mask = 0644' >> /etc/samba/smb.conf
+echo 'directory mask = 0755' >> /etc/samba/smb.conf
+echo 'force user = pi' >> /etc/samba/smb.conf
+echo 'follow symlinks = yes' >> /etc/samba/smb.conf
+echo 'wide links = yes' >> /etc/samba/smb.conf
+
+
 cp -f ./config.txt /boot/config.txt
 if [[ $? -ne 0 ]]; then
    echo "Error: Could not copy CONFIG.TXT!"
