@@ -7,13 +7,13 @@ These all are setup for my Sony Trinitron KV-AR29M31 via Component input.  Most 
 
 A few were just too small on my screen for proper pixel perfect integer scaling, so i've done a little messing around so they look good with hardware scanlines but fill more of the screen.
 
-HowTo:
+# HowTo:
 
 Console/SSH into your fresh retropie install.
 
 Type/paste command (All one line)
 
-sudo apt-get install wget git -y && cd /home/pi/ && git clone https://github.com/Vykyan/retroTINK-setup.git && cd retroTINK-setup && chmod +x ./retroTINK-setup.sh && sudo ./retroTINK-setup.sh
+`sudo apt-get install wget git -y && cd /home/pi/ && git clone https://github.com/Vykyan/retroTINK-setup.git && cd retroTINK-setup && chmod +x ./retroTINK-setup.sh && sudo ./retroTINK-setup.sh`
 
 Follow Instructions.
 
