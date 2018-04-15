@@ -15,7 +15,7 @@ Type/paste command (All one line)
 
 `sudo apt-get install wget git -y && cd /home/pi/ && git clone https://github.com/Vykyan/retroTINK-setup.git && cd retroTINK-setup && chmod +x ./retroTINK-setup.sh && sudo ./retroTINK-setup.sh`
 
-Follow Instructions.
+Follow Instructions. (Make sure to change emulationstation theme to "tft-retrotink" once back in Emulationstation after reboot!
 
 # Currently supported Libretro Systems:
  (Not emulator dependant, must be libretro/retroarch core)
