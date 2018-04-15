@@ -47,6 +47,12 @@ chmod 755 ./makeSaveDirs.sh
 if [[ $? -ne 0 ]]; then
    echo "Error: Could not create Save file Directories!"
 fi
+
+#  Copy systems config
+chmod 644 ./es_systems.cfg
+chown pi:pi ./es_systems.cfg
+cp ./es_systems.cfg /etc/emulationstation/
+
 # Copy Runcommands
 cd opt-retropie-configs-all
 chmod 755 ./runcommand-onend.sh
@@ -64,6 +70,8 @@ if [[ $? -ne 0 ]]; then
    exit 1
 fi
 cd ..
+
+
 cd opt-retropie-configs
 chown pi:pi -R ./*
 cp -R -f ./* /opt/retropie/configs/
@@ -72,6 +80,15 @@ if [[ $? -ne 0 ]]; then
    exit 1
 fi
 cd ..
+
+chown pi:pi -R ./tft-retrotink
+cp -R -f ./tft-retrotink /etc/emulationstation/themes/
+if [[ $? -ne 0 ]]; then
+   echo "Error: Could copy ES Theme!"
+   exit 1
+fi
+cd ..
+
 cp -f ./config.txt /boot/config.txt
 if [[ $? -ne 0 ]]; then
    echo "Error: Could not copy CONFIG.TXT!"
