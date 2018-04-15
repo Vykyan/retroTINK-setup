@@ -1,4 +1,4 @@
-WARNING: This script is in testing, once verified it will be listed as such.  You have been warned!
+NOTE: Confirmed working on RetroPie v4.3 and v4.4!! :D
 
 # retroTINK-setup
 A Setup script to install RetroTINK configs on a fresh RetroPie v4.3+
