@@ -3,7 +3,7 @@ WARNING: This script is in testing, once verified it will be listed as such.  Yo
 # retroTINK-setup
 A Setup script to install RetroTINK configs on a fresh RetroPie v4.3+
 
-These all are setup for my Sony Trinitron KV-AR29M31 via Component inputs.
+These all are setup for my Sony Trinitron KV-AR29M31 via Component input.  Most are pixel perfect resolutions with correct timing but a were just too small on my screen for proper pixel perfect scaling, so i've done a little messing around so they look good with hardware scanlines but fill more of the screen.
 
 HowTo:
 
