@@ -26,3 +26,4 @@ dpi_mode=87
 disable_splash=1
 disable_overscan=1
 hdmi_drive=2
+hdmi_timings=450 1 50 30 90 270 1 1 1 30 0 0 0 50 0 9600000 1
