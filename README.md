@@ -15,11 +15,10 @@ Follow Instructions.
 
 # Currently supported Libretro Systems:
  (Not emulator dependant, must be libretro/retroarch core)
-
+ (Ex: snes will catch any SNES libretro core, ie, snes9x,pocketsnes etc)
 
 atari2600,atari5200,atari7800,atarilynx,fba,fds,gamegear,gb,gba,gbc,genesis/megadrive,mame-libretro,mastersystem,msx,n64,neogeo,nes,ngp,ngpc,pc,pcengine,pcenginecd,psx,sega32x,segacd,snes,supergrafx,virtualboy,wonderswan,wonderswancolor
 
 # Currently supported OTHER emulators/ports:
- (Not 
 
 advmame (relies of advmame inbuilt support for changing resolutions),doom,quake
