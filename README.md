@@ -1,6 +1,6 @@
 NOTE: Confirmed working on RetroPie v4.3 and v4.4!! :D
 
-# retroTINK-setup
+# retroTINK-setup (Should work for RGB-Pi users as well!)
 A Setup script to install RetroTINK configs on a fresh RetroPie v4.3+
 
 These all are setup for my Sony Trinitron KV-AR29M31 via Component input.  Most are pixel perfect resolutions with correct timing/clocks.
