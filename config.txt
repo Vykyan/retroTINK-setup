@@ -1,0 +1,28 @@
+# Overclock to 1.4 optimal (Require good PSU)
+# Uncomment to unlead the RetroTINK! (Maybe change arm_freq if you get crashes)
+#arm_freq=1400
+#gpu_freq=500
+#core_freq=500
+#sdram_freq=500
+#sdram_schmoo=0x02000020
+#over_voltage=6
+#sdram_over_voltage=2
+#force_turbo=1
+
+dtparam=audio=on
+gpu_mem_256=128
+gpu_mem_512=256
+gpu_mem_1024=256
+overscan_scale=1
+boot_delay=1
+gpu_mem=128
+hdmi_ignore_cec_init=1
+dtoverlay=dpi24
+enable_dpi_lcd=1
+display_default_lcd=1
+dpi_output_format=519
+dpi_group=2
+dpi_mode=87
+disable_splash=1
+disable_overscan=1
+hdmi_drive=2
