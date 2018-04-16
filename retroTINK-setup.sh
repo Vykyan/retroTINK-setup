@@ -47,6 +47,9 @@ chmod 755 ./makeSaveDirs.sh
 if [[ $? -ne 0 ]]; then
    echo "Error: Could not create Save file Directories!"
 fi
+chown pi:pi -R /home/pi/RetroPie/savefiles
+chown pi:pi -R /home/pi/RetroPie/savestates
+
 
 #  Copy systems config
 chmod 644 ./es_systems.cfg
