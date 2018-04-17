@@ -30,8 +30,7 @@ fi
 Check_Internet () {
 DIALOG_INTERNET=${DIALOG=dialog}
 
-#wget -q --tries=10 --timeout=20 --spider http://www.google.com
-ping -c 2 google.com
+wget -q --tries=10 --timeout=20 --spider http://www.google.com
 if [[ $? -ne 0 ]]; then
    $DIALOG_INTERNET --title  "No Internet Access!" --clear \
    --msgbox "\n\nPlease connect the Raspberry Pi to the Internet, required to continue setting up RetroTINK..." 11 40
